@@ -1,0 +1,224 @@
+// FONT FAMILY
+$font-bold: "Montserrat_Bold";
+$font-thin: "Montserrat_Thin";
+$font-light: "Montserrat_Light";
+$font-black: "Montserrat_Black";
+$font-medium: "Montserrat_Medium";
+$font-semibold: "Montserrat_SemiBold";
+$font-extrabold: "Montserrat_ExtraBold";
+$font-extralight: "Montserrat_ExtraLight";
+
+// COLORS
+// $background-color: #fff;
+$primary-color: #6f48eb;
+$hover-background-color: #f8f8fa;
+$disabled-background-color: #f0f0f0;
+$box-shadow-color: rgba(0, 0, 0, 0.2);
+
+.d--flex--btw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d--grid {
+    display: grid;
+}
+
+.d---flex{
+    display: flex;
+}
+
+.d--end{
+    display: flex;
+    justify-content: end;
+}
+
+.btn--dark {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 0.25rem;
+    background-color: #332d2d;
+    box-shadow: 0 4px 9px -4px #332d2d;
+}
+
+.btn--confirm {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 0.25rem;
+    background-color: #0e9b58;
+    box-shadow: 0 4px 9px -4px #0e9b58;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    padding: 20px 20px 40px 20px;
+
+    .stripePayment {
+        width: 30%;
+        margin: 5% auto;
+        padding: 20px 20px 30px;
+        box-shadow: 0 1px 7px -4px #332d2d;
+
+        .stripe__content {
+            
+                
+
+            .handleProductDetails{
+                width: 100%;
+                text-align: start;
+                border-radius: 10px;
+
+                h2{
+                    color: #46978b;
+                }
+                
+                label{
+                    font-weight: 500;
+                }
+
+                
+                .input__field{
+                    display: grid;
+                    margin: 15px 0;
+                    text-align: start;
+                
+                    input {
+                            padding: 10px;
+                            margin: 15px 0px 3px;
+                            border-radius: 3px;
+                            border: 1px solid #cccccc;
+                        }
+                        p {
+                            color: red;
+                            font-size: 12px;
+                            margin: 0;
+                        }
+                }
+            
+                .css-b62m3t-container {
+                    margin: 15px 0px;
+                }
+
+                button {
+                    width: 100%;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    font-weight: 500;
+                    padding: 10px 7px;
+                    border-radius: 3px;
+                    background-color: #6a8783;
+                }
+                button:hover {
+                    background-color: #3e4f4c;
+                }
+
+                
+            }
+
+            .handleConfirmPayment{
+                .back__To__Product {
+                    border: none;
+                    display: flex;
+                    color: #3e4f4c;
+                    font-size: 19px;
+                    padding: 8px;
+                    width: fit-content;
+                    border-radius: 100%;
+                    background-color: white;
+                    width: -moz-fit-content;
+                    box-shadow: 0 1px 8px -4px #332d2d;
+                }
+                .back__To__Product:hover{
+                    box-shadow: 0 1px 10px -4px #332d2d;
+                }
+                .g__pay {
+                    color: white;
+                    font-size: 22px;
+                    background: black;
+                    text-align: center;
+                    margin: 10px 0 15px 0;
+                
+                    span {
+                        background: linear-gradient(to bottom, #ff0000 0%, #ffcc00 50%, #009900 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-size: 25px;
+                    }
+                }
+
+                .input__field {
+                    display: grid;
+                    margin: 15px 0 10px; 
+                    text-align: start;
+                    input {
+                        padding: 10px;
+                        margin: 15px 0px 3px;
+                        border-radius: 3px;
+                        border: 1px solid #cccccc;
+                    }
+                    p {
+                        color: red;
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                }
+                .card__field {
+                    display: grid;
+                    position: relative;
+                    justify-content: center;
+                
+                    .or__card {
+                        z-index: 999;
+                        padding: 0 5px;
+                        color: #858585;
+                        width: fit-content;
+                        background: white;
+                    }
+                    hr {
+                        top: 36%;
+                        width: 100%;
+                        position: absolute;
+                    }
+                }
+                
+                button {
+                    width: 100%;
+                    border: none;
+                    padding: 10px;
+                    display: flex;
+                    color: white;
+                    cursor: pointer;
+                    font-weight: 500;
+                    border-radius: 3px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #46978b;
+                }
+                .payment__btn:hover{
+                    background-color: #2e645c;
+                }
+
+                .StripeElement.StripeElement--empty {
+                    margin: 15px 0 25px;
+                }
+                .StripeElement {
+                    margin: 15px 0 25px;
+                }
+            }
+
+           
+        }
+    }
+
+        
+    
+        
+}
